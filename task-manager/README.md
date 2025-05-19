@@ -1,50 +1,36 @@
-# Welcome to your Expo app 👋
+# 💖 Task Manager App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a simple, responsive, and aesthetic Task Manager built in **React Native** using **Expo**, created as part of the Chapter One React Native Tech Screen. The app allows users to manage tasks with a clean UI and stylish blush-pink design.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- ➕ Add tasks with a title, description, and due date
+- ✅ Mark tasks as complete
+- 🗑️ Delete tasks
+- 📅 Date picker using a native calendar UI
+- 📊 Progress bar dynamically updates as tasks are completed
+- 🩷 Validation with friendly error messaging
+- 🌸 Girly, minimal UI theme with pastel pinks and shadows
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📦 Libraries Used
 
-In the output, you'll find options to open the app in a
+| Library                          | Purpose                              |
+|----------------------------------|---------------------------------------|
+| `react-native`                   | Core UI framework                     |
+| `expo`                           | Simplified app bootstrap and tools   |
+| `@react-native-community/datetimepicker` | Platform-native date selection     |
+| `react-native-uuid`             | Generate unique IDs for tasks        |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🛠️ Getting Started
 
-## Get a fresh project
-
-When you're ready, run:
+### 1. Clone the Repository
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/your-username/task-manager-app.git
+cd task-manager-app
