@@ -157,7 +157,7 @@ export default function Index() {
 }
 
 const styles = StyleSheet.create({
-  ccontainer: {
+  container: {
     flex: 1,
     paddingHorizontal: 24, // ← more room on sides
     paddingTop: 20,
