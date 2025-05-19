@@ -12,7 +12,7 @@ This is a simple, responsive, and aesthetic Task Manager built in **React Native
 - 📅 Date picker using a native calendar UI
 - 📊 Progress bar dynamically updates as tasks are completed
 - 🩷 Validation with friendly error messaging
-- 🌸 Girly, minimal UI theme with pastel pinks and shadows
+- 🌸 Minimal UI theme with pastel pinks and shadows
 
 ---
 
@@ -34,3 +34,5 @@ This is a simple, responsive, and aesthetic Task Manager built in **React Native
 ```bash
 git clone https://github.com/your-username/task-manager-app.git
 cd task-manager-app
+npm install
+npx expo start
