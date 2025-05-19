@@ -32,7 +32,7 @@ This is a simple, responsive, and aesthetic Task Manager built in **React Native
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/task-manager-app.git
+git clone https://github.com/naveena-pillai/task-manager-app.git
 cd task-manager-app
 npm install
 npx expo start
